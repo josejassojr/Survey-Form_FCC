@@ -1,0 +1,129 @@
+<link rel="stylesheet" type="text/css" href="survey-form.css"
+<div class="container">
+    <h1 id="title"> Homie Check In</h1>
+    <p id="description" class="labels"> Hey what's up homie? How are you? You good? </p>
+    
+    <form id="survey-form">  
+      <label for="name" id="name-label">Name </label>
+      <input type="text" 
+             id="name" 
+             name="name"
+             placeholder="John Smith" 
+             required>
+      <br><br>
+      
+      <label for="email" id="email-label">Email </label>
+      <input type="email" 
+             id="email" 
+             name="email"
+             placeholder="johnsmith@email.com"
+             required>
+      <br><br>
+      
+      <label for="number" id="number-label">Age </label>
+      <input type="number" 
+             id="number" 
+             name="number"
+             placeholder="0" 
+             min="0" max="150">
+      <br><br>
+      
+      <label for="radio" id="radio-label" class="labels"> How are you feeling today? (1 is horrible and 5 is amazing)</label><br>
+      <input type="radio" 
+             name="radio"
+             value="1">
+      1-Horrible :(
+      <input type="radio" 
+             name="radio" 
+             value="2">
+      2 
+      <input type="radio" 
+             name="radio" 
+             value="3">
+      3 
+      <input type="radio" 
+             name="radio" 
+             value="4">
+      4 
+      <input type="radio" 
+             name="radio" 
+             value="5">
+      5-Amazing!
+      <br><br>
+      
+      <label for="checkbox" id="checkbox-label" class="labels"> Have you done any of these things today to help you out? </label><br>
+      <div id="divv">
+      
+      <div id="checkbox-box">
+      reached out to a friend <input type="checkbox"
+             name="checkbox" 
+             value="reached out to a friend">
+      <br>
+      drank enough water
+      <input type="checkbox"
+             name="checkbox"
+             value="water">
+      <br>
+      exercised
+      <input type="checkbox"
+             name="checkbox" 
+             value="exercised">
+      <br>
+      ate a good meal
+      <input type="checkbox"
+             name="checkbox"
+             value="ate">
+      <br>
+      take a break
+      <input type="checkbox"
+             name="checkbox"
+             value="break">
+      </div>
+      </div>
+        <br>
+       
+      <label for="dropdown" id="dropdown-label" class="labels">How did you come across this check in?</label>
+      <select name="dropdown" id="dropdown">
+      <option value="homie">
+        Got it from a homie
+        </option>
+      <option value="online">
+        Came across it online
+        </option>
+      <option value="saved">
+        I already have this saved
+        </option>
+      <option value="other">
+        Other
+        </option>
+      </select>
+      <br>
+      
+      <label for="other" id="other">If other, explain: </label>
+      <input type="text" 
+             id="other" 
+             name="other"
+             placeholder="N/A">
+      
+      <br><br>
+      <label for="textarea" class="labels"> Is there anything else you want to get off your chest? Any comments or concerns? </label>
+      <br>
+      <textarea id="textarea" 
+                name="textarea">
+      You can write anything you like.
+      </textarea>
+      <br><br>
+      
+      <button type="submit" 
+              id="submit">
+              SUBMIT
+      </button>
+      
+    </form>
+    <br>
+    <footer>&copyJassoWebDesign </footer>
+    <br><br><br><br><br>
+    
+    </div>
+    
+    
